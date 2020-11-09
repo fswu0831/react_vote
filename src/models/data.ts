@@ -6,7 +6,7 @@ import {
     SignInAttributes,
     SignInResponseAttributes,
     RefreshTokenAttributes,
-} from './.interfaces';
+} from './interfaces';
 
 // 質問データ
 export const questions: QuestionAttributes[] = [
