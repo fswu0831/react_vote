@@ -1,0 +1,26 @@
+.common__button {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.common__button--delete {
+    background-color: #ff8a84;
+}
+
+.common__button--entry {
+    background-color: #92d36e;
+}
+
+.common__button--normal {
+    background-color: #ccc;
+}
