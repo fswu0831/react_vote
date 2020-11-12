@@ -47,6 +47,18 @@ module.exports = {
         'react/prop-types': 'off',
         'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': ['error'],
+        // label と input の関連づけ
+        'jsx-a11y/label-has-associated-control': [
+            'error',
+            {
+                labelComponents: [],
+                labelAttributes: [],
+                controlComponents: [],
+                assert: 'either',
+                depth: 25,
+            },
+        ],
+        // jsx でのスプレッド構文を許可する
         'react/jsx-props-no-spreading': 'off',
     },
     settings: {

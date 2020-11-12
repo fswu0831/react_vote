@@ -1,0 +1,9 @@
+.choice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.choice-list__item {
+    margin-bottom: 9px;
+}

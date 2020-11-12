@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from './components/common/Button';
-import TextField from './components/common/TextField;
+import QuestionEntry from './components/question/QuestionEntry';
 
 import './App.css';
 
@@ -18,11 +17,7 @@ const App: React.FC = () => {
                 </a>
             </header>
 
-            <Button variant="delete">削除</Button>
-            <Button variant="entry">登録</Button>
-            <Button variant="normal">通常</Button>
-
-            <TextField />
+            <QuestionEntry />
         </div>
     );
 };

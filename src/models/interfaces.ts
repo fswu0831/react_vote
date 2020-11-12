@@ -6,6 +6,7 @@ export interface VoteAttributes {
     votedBy: number;
 }
 
+// 選択肢登録データ
 export interface ChoiceEntryAttributes {
     content: string;
 }
@@ -16,6 +17,7 @@ export interface ChoiceAttributes extends ChoiceEntryAttributes {
     createdAt: string;
     updatedAt: string;
 }
+
 // 質問登録データ
 export interface QuestionEntryAttributes {
     sentence: string;
@@ -52,7 +54,7 @@ export interface SignInAttributes {
 }
 
 // ログイン成功
-export interface SignInResponseAttributes extends UserEntryAttributes {
+export interface SignInResponseAttributes extends UserAttributes {
     token: string;
 }
 

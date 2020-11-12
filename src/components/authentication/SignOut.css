@@ -1,0 +1,13 @@
+.sign-out__form {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.sign-out__user-name {
+    margin-right: 1rem;
+}
+
+.sign-out__button {
+    width: 100px;
+}

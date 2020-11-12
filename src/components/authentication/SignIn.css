@@ -1,0 +1,19 @@
+.sign-in__form {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.sign-in__email {
+    width: 14rem;
+    margin-right: 0.5rem;
+}
+
+.sign-in__password {
+    width: 14rem;
+    margin-right: 0.5rem;
+}
+
+.sign-in__button {
+    width: 100px;
+}
