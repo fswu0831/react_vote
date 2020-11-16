@@ -1,0 +1,29 @@
+.question-entry__form {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.question-entry__title {
+    margin: 0;
+    margin-bottom: 9px;
+    font-size: 1.2rem;
+}
+
+.question-entry__sentence {
+    margin-bottom: 9px;
+}
+
+.question-entry__list {
+    margin-bottom: 9px;
+}
+
+.question-entry__limit {
+    margin-bottom: 9px;
+}
+
+.question-entry__entry-button {
+    padding: 0.5rem 0;
+}

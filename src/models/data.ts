@@ -99,14 +99,14 @@ export const questions: QuestionAttributes[] = [
 ];
 
 // 質問登録データ
-export const questionEntryAttributes: QuestionEntryAttributes = {
+export const questionRequest: QuestionEntryAttributes = {
     sentence: '朝食は何派？',
     limit: '2099-11-01T00:00:00.000Z',
     choices: [{ content: 'パン派' }, { content: '米派' }, { content: 'たべない' }],
 };
 
 // 質問登録成功
-export const questionAttributes: QuestionAttributes = {
+export const questionResponse: QuestionAttributes = {
     id: 3,
     sentence: '朝食は何派？',
     limit: '2099-11-01T00:00:00.000Z',

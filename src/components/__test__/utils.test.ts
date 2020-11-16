@@ -1,4 +1,4 @@
-import { padLeft, formatLocalDatetime } from '..';
+import { padLeft, formatLocalDatetime } from '../../utils';
 
 describe('utility methods', () => {
     test('padLeft(number)', () => {
